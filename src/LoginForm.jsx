@@ -55,7 +55,7 @@ const LoginForm = () => {
           />
           {errors.password && <p className="error">{errors.password}</p>}
         </div>
-        <button type="submit">Login</button>
+        <button  style ={{color:"red"}}type="submit">Login</button>
       </form>
     </div>
   );
